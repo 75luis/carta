@@ -20,6 +20,9 @@
     position: static; /* Cambiar la posiciÃ³n a estÃ¡tica para que no sea fija */
     visibility: none; /* Hacer que el elemento sea visible */
     top: 50px;
+    background-size: 300px 600px;
+    transform: scaleX(-1);
+
  
   }
   .side.side.one {
@@ -87,9 +90,10 @@ body {
    justify-content: center;
    height: 100vh;
    font-family: 'Sacramento', cursive;
-   background-color: #f1e3d3c6;
-   overflow: hidden;
- }
+   background-image: url("depositphotos_8873826-stock-illustration-valentine-background.jpg"); 
+   background-size: cover;
+  
+  }
  
  .valentines-day {
    position: relative;
